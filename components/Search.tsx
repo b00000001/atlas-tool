@@ -1,15 +1,15 @@
 function Search() {
   return (
-    <section className="flex h-1/5 py-4">
-      <div className="flex flex-col justify-between w-full h-full">
-        <div className="flex text-2xl w-1/6 justify-between font-bold">
+    <section className="flex py-4 h-full">
+      <div className="flex flex-col justify-between w-full">
+        <div className="flex text-2xl w-1/6 justify-between font-bold h-1/4">
           <p>Trending</p>
           <p>Discover</p>
         </div>
-        <div className="flex justify-between h-auto items-center">
-          <div className="w-4/6 h-full flex items-center">
+        <div className="flex items-center h-100">
+          <div className="w-4/6 h-full">
             <input
-              className="h-full w-11/12 border-2 border-blue-900 bg-gray-800 rounded px-2"
+              className="w-11/12 border-2 border-blue-900 bg-gray-900 rounded px-2 h-full"
               type="search"
               placeholder="Search by collection name or address..."
             ></input>

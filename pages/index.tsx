@@ -16,10 +16,10 @@ export default function Home() {
           id="inner-body-pane"
           className="h-full w-11/12 flex flex-col"
         >
-          <div className="w-full">
+          <div className="w-full h-1/5">
             <Search />
           </div>
-          <div className='h-full'><Panel /></div>
+          <div className='h-auto'><Panel /></div>
         </div>
       </div>
     </div>
