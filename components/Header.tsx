@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <header className="flex">
+    <header className="flex bg-slate-800">
       <div className="text-9xl px-4">L</div>
       <div className="flex items-center w-full justify-between px-16">
         <div className="text-3xl">
