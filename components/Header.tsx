@@ -1,13 +1,15 @@
 function Header() {
   return (
-    <header className='flex justify-between'>
-      <div className="border flex text-2xl justify-between w-1/12">
-        <p>Title</p>
-        <p>Logo</p>
-      </div>
-      <div className='text-2xl flex'>
-        <p>Community</p>
-        <p>Doc.</p>
+    <header className="flex">
+      <div className="text-9xl px-4">L</div>
+      <div className="flex items-center w-full justify-between px-16">
+        <div className="text-3xl">
+          <p>Atlas Tool</p>
+        </div>
+        <div className='flex text-3xl w-1/4 justify-between'>
+          <p>Community</p>
+          <p>Doc.</p>
+        </div>
       </div>
     </header>
   );
