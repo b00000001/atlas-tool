@@ -1,18 +1,22 @@
-function Search() {
+function Search({handleChange}) {
+  
   return (
     <section className="flex py-4 h-full">
-      <div className="flex flex-col justify-between w-full">
+      <div className="flex flex-col justify-between w-full h-full">
         <div className="flex text-2xl w-1/6 justify-between font-bold h-1/4">
           <p>Trending</p>
           <p>Discover</p>
         </div>
         <div className="flex items-center h-100">
           <div className="w-4/6 h-full">
+            <form onSubmit={handleChange}>
             <input
               className="w-11/12 border-2 border-blue-900 bg-gray-900 rounded px-2 h-full"
               type="search"
               placeholder="Search by collection name or address..."
-            ></input>
+            /> 
+            <button type='submit'></button>
+            </form>
           </div>
           <div className="w-1/2 text-xl">
             <ul className="flex justify-end">

@@ -1,8 +1,11 @@
 import Image from 'next/image';
-function Panel() {
+import DataFetch from './DataFetch';
+
+function Panel({coin}) {
   return (
-    <div class="overflow-x-auto w-full h-full">
-      <table class="table w-full h-full">
+    <div className="overflow-x-auto w-full h-full">
+      <DataFetch coin={coin} />
+      <table className="table w-full h-full">
         <thead>
           <tr>
             <th>Collection</th>
